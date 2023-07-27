@@ -1,63 +1,86 @@
 
+:root{
+  font-size: 20px;
+}
+@media(max-width:1200px){
+  :root{
+    font-size: 18px;
+}}
+@media(max-width:1000px){
+  :root{
+    font-size: 16px;
+}}
+@media(max-width:800px){
+  :root{
+    font-size: 14px;
+}}
+@media(max-width:600px){
+  :root{
+    font-size: 12px;
+}}
+@media(max-width:400px){
+  :root{
+    font-size: 10px;
+}}
 body{
     background-color:lightskyblue;
 }
 .calculator-body{
     display:flex;
-    width:400px;
-    height:800px;
+    width:20rem;
+    height:40rem;
     background-color:lightgrey;
-    margin:2px auto;
+    margin:0.1rem auto;
     flex-wrap:wrap;
-    gap:20px;
-    padding:10px;
-    border-radius:25px;
-    border:2px solid black;
-    box-shadow:0 0 60px; 
-    margin-top:25px;
+    gap:1rem;
+    padding:0.5rem;
+    border-radius:1.25rem;
+    border:0.1rem solid black;
+    box-shadow:0 0 3rem; 
+    margin-top:1.25rem;
 
   }
   .calculator-body p{
    font-family: 'Press Start 2P', cursive;
-    margin:2px auto;
-    margin-top:25px;
-    margin-bottom:-25px;
-    font-size:24px;
+    margin:0.1rem auto;
+    margin-top:1.25rem;
+    margin-bottom:-1.25rem;
+    font-size:1.25rem;
   }
   .calculator-body p a{
    text-decoration:none;
     color:black;
   }
   #icon{
-    width:24px;
-    margin-right:5px;
+    width:1rem;
+    margin-right:0.25rem;
     align-items:center;
   }
   .screen-container{
-    margin-left:10px;
+    margin-left:0.5rem;
   }
   .header{
     display: flex;
     
     
     margin:0;
-    width: 370px;
+    width: 19rem;
   }
   #screen{
     box-sizing:border-box;
     font-family: 'Silkscreen', cursive;
-    padding-top:30px;
-    padding-left:20px;
+    padding-top:1.5rem;
+    padding-left:1rem;
     display:flex;
     color:#3A3C2F;
-    margin:3px auto;
+    margin:0.15rem auto;
     margin-top:0px;
-    width:370px;
-    height:150px;
+    width:19rem;
+    height:7.5rem;
     background-color:#A4AF87;
     overflow:auto;
-    font-size:36px;
-    border-radius:0px 0px 15px 15px;
+    font-size:1.6rem;
+    border-radius:0px 0px 1.6rem 1.6rem;
     
   }
   #history{
@@ -69,20 +92,20 @@ body{
     flex-wrap:wrap;
     overflow:auto;
     color:#3A3C2F;
-    padding-left:10px;
-    padding-top:10px;
+    padding-left:0.5rem;
+    padding-top:0.5rem;
     
-    height:30px;
+    height:1.5rem;
     background-color:#949b7f;
-    font-size:16px;
+    font-size:0.6rem;
     font-weight:300;
-    border-radius:15px 0px 0px 0px ;
+    border-radius:0.6rem 0px 0px 0px ;
     
   }
   .buttons-container{
     display:flex;
     flex-wrap:wrap;
-    gap:10px;
+    gap:0.5rem;
     justify-content:space-around;
   }
   
@@ -90,10 +113,10 @@ body{
     border:none;
     background-color:grey;
     color:ghostwhite;
-    border-radius:20px;
-    font-size:60px;
-    height:80px;
-    width:80px;
+    border-radius:1rem;
+    font-size:3rem;
+    height:4rem;
+    width:4rem;
   }
   button:hover{
     opacity:0.7;
@@ -103,25 +126,25 @@ body{
   }
   #clear{
     background-color:red;
-    width:175px;
+    width:9rem;
   }
   #equal{
     background-color:green;
-    width:175px;
+    width:9rem;
   }
   #backspace{
     display: block;
     flex:2;
     border:none;
-    width: 30px;
-    height: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
     text-align: center;
     background-color:#949b7f;
     color:#3A3C2F;
-    font-size:20px;
+    font-size:1rem;
     margin-bottom:0;
     margin-left:auto;
-    border-radius:0px 15px 0px 0px ;
+    border-radius:0px 0.6rem 0px 0px ;
 
   }
   
