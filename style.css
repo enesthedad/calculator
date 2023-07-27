@@ -1,0 +1,127 @@
+
+body{
+    background-color:lightskyblue;
+}
+.calculator-body{
+    display:flex;
+    width:400px;
+    height:800px;
+    background-color:lightgrey;
+    margin:2px auto;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:10px;
+    border-radius:25px;
+    border:2px solid black;
+    box-shadow:0 0 60px; 
+    margin-top:25px;
+
+  }
+  .calculator-body p{
+   font-family: 'Press Start 2P', cursive;
+    margin:2px auto;
+    margin-top:25px;
+    margin-bottom:-25px;
+    font-size:24px;
+  }
+  .calculator-body p a{
+   text-decoration:none;
+    color:black;
+  }
+  #icon{
+    width:24px;
+    margin-right:5px;
+    align-items:center;
+  }
+  .screen-container{
+    margin-left:10px;
+  }
+  .header{
+    display: flex;
+    
+    
+    margin:0;
+    width: 370px;
+  }
+  #screen{
+    box-sizing:border-box;
+    font-family: 'Silkscreen', cursive;
+    padding-top:30px;
+    padding-left:20px;
+    display:flex;
+    color:#3A3C2F;
+    margin:3px auto;
+    margin-top:0px;
+    width:370px;
+    height:150px;
+    background-color:#A4AF87;
+    overflow:auto;
+    font-size:36px;
+    border-radius:0px 0px 15px 15px;
+    
+  }
+  #history{
+    box-sizing:border-box;
+    font-family: 'Silkscreen', cursive;
+    margin:0;
+    flex:8;
+    display:flex;
+    flex-wrap:wrap;
+    overflow:auto;
+    color:#3A3C2F;
+    padding-left:10px;
+    padding-top:10px;
+    
+    height:30px;
+    background-color:#949b7f;
+    font-size:16px;
+    font-weight:300;
+    border-radius:15px 0px 0px 0px ;
+    
+  }
+  .buttons-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:space-around;
+  }
+  
+  button{
+    border:none;
+    background-color:grey;
+    color:ghostwhite;
+    border-radius:20px;
+    font-size:60px;
+    height:80px;
+    width:80px;
+  }
+  button:hover{
+    opacity:0.7;
+  }
+  .buttons-container .numbers{
+    background-color:black;
+  }
+  #clear{
+    background-color:red;
+    width:175px;
+  }
+  #equal{
+    background-color:green;
+    width:175px;
+  }
+  #backspace{
+    display: block;
+    flex:2;
+    border:none;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color:#949b7f;
+    color:#3A3C2F;
+    font-size:20px;
+    margin-bottom:0;
+    margin-left:auto;
+    border-radius:0px 15px 0px 0px ;
+
+  }
+  
